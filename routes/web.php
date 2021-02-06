@@ -12,6 +12,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/crs', function () {
+    return view('crs.create_apps');
+});
 
 Route::get('/cr', function () {
     return view('layouts.app_cr');
@@ -26,5 +29,5 @@ Route::get('/home', function () {
 });
 
 Route::get('/', function () {
-    return view('test');
+    return view('index');
 });
