@@ -6,24 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <link rel="stylesheet" href="{{url('/bootstrap/css/bootstrap.min.css')}}">
-    <!-- <link rel="stylesheet" href="{{url('/css/font-awesome/css/font-awesome.min.css')}}"> -->
+    <link rel="stylesheet" href="{{url('/font-awesome/css/fontawesome.min.css')}}">
     
     <title>@yield('title')</title>
 </head>
-<body>
-        @if(Auth::user())
-  
-	        <form action="{{ url('logout') }}" method="POST">
-		     <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                <div class="col-sm-12" align="right"></br>
-                <input type="submit" name="submit" value="Logout">
-                </div>
-	        </form>
-	    @endif
-        
-    <p>
-        @yield('content')
-    </p>
+<body>      
+    @yield('content')
 
     <footer>
         @yield('footer')
