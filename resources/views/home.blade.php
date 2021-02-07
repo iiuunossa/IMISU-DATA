@@ -19,7 +19,8 @@
             </div>
               <div class="card-body">  
                 <div class="row p-4 gy-2">
-                  <button type="button" class="btn btn-primary btn-lg btn-block">Change Request</button>
+                  <button type="button" class="btn btn-primary btn-lg btn-block">Change Request</a></button>
+                  <!-- <a href="{{ url('/crsh') }}" class="btn btn-primary">Change Request</a> -->
                   <button type="button" class="btn btn-primary btn-lg btn-block">IT Support</button>
                   <button type="button" class="btn btn-primary btn-lg btn-block">Consent Form VDO</button>
                   <button type="button" class="btn btn-primary btn-lg btn-block">Gallery</button>

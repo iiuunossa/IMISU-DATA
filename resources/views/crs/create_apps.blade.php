@@ -1,11 +1,16 @@
 @extends('layouts.app_cr')
+
+@section('title','Create Application')
+
 @section('content')
+
+
 <div class="container" style="margin-top: 10px;">
     <div class="row">
         <div class="col-12">
             <div class="card p-4 mx-auto" style="margin-top: 15px;">
                 <div class="card-header text-dark">
-                    <h2>Internal Medicine Applications</h2>
+                    <h2>Create Applications</h2>
                 </div>
                 <div class="card-body"> 
 
@@ -19,20 +24,11 @@
                         <input type="date" class="form-control" placeholder="" aria-label="beg_date">
                         <span class="input-group-text">End Date</span>
                         <input type="date" class="form-control" placeholder="" aria-label="end_date">
-                        <span class="input-group-text">Go Live</span>
-                        <input type="date" class="form-control" placeholder="" aria-label="golive_date">
                     </div>
 
                     <div class="input-group mb-4">
-                        <label class="input-group-text" for="technology">Technology</label>
-                        <select class="form-select" id="technology">
-                            <option selected></option>
-                            <option value="1">Pure PHP</option>
-                            <option value="2">PHP Framework Laravel</option>
-                            <option value="3">PHP Framework Laravel-7</option>
-                            <option value="4">MS Access</option>
-                        </select>
-
+                        <span class="input-group-text">Go Live</span>
+                        <input type="date" class="form-control" placeholder="" aria-label="golive_date">
                         <label class="input-group-text" for="status">Status</label>
                         <select class="form-select" id="status">
                             <option selected></option>
@@ -44,6 +40,14 @@
                     <div class="input-group mb-4">
                         <span class="input-group-text" id="developer">Developer</span>
                         <input type="text" class="form-control" placeholder="" aria-label="developer" aria-describedby="developer">
+                        <label class="input-group-text" for="technology">Technology</label>
+                        <select class="form-select" id="technology">
+                            <option selected></option>
+                            <option value="1">Pure PHP</option>
+                            <option value="2">PHP Framework Laravel</option>
+                            <option value="3">PHP Framework Laravel-7</option>
+                            <option value="4">MS Access</option>
+                        </select>
                     </div>
 
                     <div class="input-group mb-4">
@@ -57,8 +61,8 @@
                     </div>
 
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button class="btn btn-primary me-md-2 col-2" type="button">Save</button>
-                        <button class="btn btn-danger col-2" type="button">Cancel</button>
+                        <button class="btn btn-primary me-md-2 col-sm-3 col-md-2" type="button">Save</button>
+                        <button class="btn btn-danger col-sm-3 col-md-2" type="button">Cancel</button>
                     </div>
                                             
                  </div>
@@ -66,4 +70,5 @@
         </div>
     </div>
 </div>
+
 @endsection
