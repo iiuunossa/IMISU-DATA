@@ -61,8 +61,8 @@
                     </div>
 
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                        <button class="btn btn-primary me-md-2 col-sm-3 col-md-2" type="button">Save</button>
-                        <button class="btn btn-danger col-sm-3 col-md-2" type="button">Cancel</button>
+                        <button class="btn btn-primary me-md-2 col-sm-3 col-md-2" type="button"><i class="fa fa-floppy-o" aria-hidden="true"> Save</i></button>
+                        <button class="btn btn-danger col-sm-3 col-md-2" type="button"><i class="fa fa-ban" aria-hidden="true"> Cancel</i></button>
                     </div>
                                             
                  </div>

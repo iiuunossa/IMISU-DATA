@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <link rel="stylesheet" href="{{url('/bootstrap/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{url('/font-awesome/css/fontawesome.min.css')}}">
+    <link rel="stylesheet" href="{{url('/bootstrap/css/font-awesome/css/font-awesome.min.css')}}">
     
     <title>@yield('title')</title>
 </head>
@@ -14,7 +14,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="margin-top: 10px;">
   <div class="container">
-    <a class="navbar-brand" href="#">IMISU-Service</a>
+     <a class="navbar-brand" href="#"> IMISU-Service </i></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>

@@ -13,7 +13,7 @@
                     <h2>Internal Medicine Applications</h2>
                 </div>
                 <div class="card-body">
-                    <button type="button" class="btn btn-outline-primary">New Application</button>
+                    <button type="button" class="btn btn-outline-primary"><i class="fa fa-plus-circle" aria-hidden="true"> New Application</i></button>
                     
                     <div class="container bg-light" style="margin-top: 10px;" >
                         <table class="table table-striped">
