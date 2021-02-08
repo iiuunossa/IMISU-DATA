@@ -13,15 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/crsh', function () {
-    return view('crs.show_apps');
+    return view('show_apps');
 });
 
 Route::get('/crs', function () {
-    return view('crs.create_apps');
+    return view('create_apps');
 });
 
 Route::get('/cr', function () {
-    return view('layouts.app_cr');
+    return view('layouts.app');
 });
 
 Route::get('/demo', function () {

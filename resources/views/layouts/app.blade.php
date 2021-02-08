@@ -6,11 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <link rel="stylesheet" href="{{url('/bootstrap/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{url('/font-awesome/css/fontawesome.min.css')}}">
+    <link rel="stylesheet" href="{{url('/bootstrap/css/font-awesome/css/font-awesome.min.css')}}">
     
     <title>@yield('title')</title>
 </head>
-<body>      
+<body> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="margin-top: 10px;">
+  <div class="container">
+     <a class="navbar-brand" href="#"> IMISU-DATA </i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Service Logs
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Change Request</a></li>
+                            <li><a class="dropdown-item" href="#">IT Support</a></li>
+                            <li><a class="dropdown-item" href="#">Consent VDO</a></li>
+                            <li><a class="dropdown-item" href="#">Gallery</a></li>
+                            <li><a class="dropdown-item" href="#">Issues</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Report</a>
+                </li>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Administration
+                    </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Applications</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Role user</a></li>
+                        </ul>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>     
     @yield('content')
 
     <footer>
