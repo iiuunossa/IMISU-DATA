@@ -30,7 +30,6 @@
                             <li><a class="dropdown-item" href="#">Change Request</a></li>
                             <li><a class="dropdown-item" href="#">IT Support</a></li>
                             <li><a class="dropdown-item" href="#">Consent VDO</a></li>
-                            <li><a class="dropdown-item" href="#">Gallery</a></li>
                             <li><a class="dropdown-item" href="#">Issues</a></li>
                         </ul>
                 </li>
