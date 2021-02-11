@@ -7,7 +7,7 @@
       
     <link rel="stylesheet" href="{{url('/bootstrap/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{url('/font-awesome/css/fontawesome.min.css')}}">
-    <title>IMISU-Service</title>
+    <title>Dashboard</title>
   </head>
   <body>
     <div class="container">
@@ -15,7 +15,7 @@
         <div class="col-sm-4 col-md-6 lg-6 mx-auto">
           <div class="card p-4 mx-auto">
             <div class="card-header text-dark">
-              <h2>IMISU DATA</h2>
+              <h2>Dashboard</h2>
             </div>
               <div class="card-body">  
                 <div class="row p-4 gy-2">
