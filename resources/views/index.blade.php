@@ -66,7 +66,7 @@
                     IMISU-DATA
                 </div>
                 <div class="links m-b-md">
-                    <a href="{{ url('/home') }}">Start Here</a>
+                    <a href="{{ url('/login') }}">Start Here</a>
                 </div>
                 
 

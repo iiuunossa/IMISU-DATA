@@ -28,7 +28,7 @@
                         <input type="text" class="form-control" placeholder="Password" aria-label="password" aria-describedby="password">
                     </div>
                     <div class="d-grid gap-2">
-                        <button class="btn btn-primary" type="button">Login</button>
+                      <a class="btn btn-lg btn-primary" href="{{ url('/home') }}">Login</a>
                     </div>
                 </div>
               </div>
